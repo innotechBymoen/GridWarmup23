@@ -1,0 +1,29 @@
+#page_header {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    min-height: 10vh;
+    align-items: center;
+}
+
+#page_header>nav {
+    justify-self: end;
+}
+
+#page_main {
+    min-height: 80vh;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    place-items: center;
+}
+
+.painting_image {
+    width: 100%;
+    object-fit: cover;
+}
+
+#page_footer {
+    min-height: 10vh;
+    display: grid;
+    place-items: center;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
